@@ -1,0 +1,6 @@
+source .venv/scripts/activate #activer le venv
+python -m pip install --upgrade pip #installer le pip
+python -m pip install django #installer le framework django
+django-admin startproject formationApp projet django
+python manage.py makemigrations
+python manage.py migrate
